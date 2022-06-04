@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.logo{
+    padding: 12px 70px;
+    /* width: 200px; */
+    height: 50px;
+}
+.container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid pink; */
+    padding: 20px;
+    justify-content: center;
+  }
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imo{
+    min-height: 455px;
+    width: 90%;
+
+}
+.main{
+    display: flex;
+    background-image: linear-gradient(135deg, #5abec0 10%, #61d6d6 100%);
+}
+.login{
+    width: 30%;
+    /* height: 100%; */
+    /* padding: 10px; */
+    background-color: white;
+    margin: 20px 40px;
+    /* height: 99%; */
+}
+
+
+.head{
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+.de{
+    font-size: 22px;
+}
+.inp{
+    padding: 10px;
+    height: 25px;
+    width: 82%;
+    outline: none;
+    margin: 10px;
+}
+.form{
+    text-align: center;
+}
+.checkbox{
+    display: flex;
+    justify-content: end;
+    margin: 20px 40px;
+}
+.lolo{
+    margin: 30px 0;
+}
+
+.gnrt-pswd a{
+    text-decoration: none;
+    color: #007bff;
+    font-weight:700;
+    /* font-size: 18px; */
+}
+.mho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.gnrt-pswd{
+    padding: 13px 30px;
+    border: none;
+}
+.mahi{
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    color: white;
+    font-family:  Roboto,sans-serif;
+    font-size: 15px;
+}
+span{
+    color: yellow;
+}
+
+
+@media screen and (max-width: 759px){
+    .container{
+        display: none;
+    }
+    .login{
+        width: 100%;
+    }
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1022px){
+    .gnrt-pswd{
+        padding: 5px 30px;
+    }
+}
+
+
+
